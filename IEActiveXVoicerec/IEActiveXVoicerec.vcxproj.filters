@@ -86,8 +86,4 @@
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
-  <ItemGroup>
-    <Library Include="lib\libsndfile-1_x64.lib" />
-    <Library Include="lib\portaudio_x64.lib" />
-  </ItemGroup>
 </Project>
