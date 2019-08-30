@@ -1,0 +1,33 @@
+﻿  64 bit Processing .\IEActiveXVoicerec.idl
+  IEActiveXVoicerec.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\oaidl.idl
+  oaidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\objidl.idl
+  objidl.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\unknwn.idl
+  unknwn.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\wtypes.idl
+  wtypes.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\basetsd.h
+  basetsd.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\guiddef.h
+  guiddef.h
+  64 bit Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\oaidl.acf
+  oaidl.acf
+  stdafx.cpp
+  IEActiveXVoicerecPropPage.cpp
+  IEActiveXVoicerecCtrl.cpp
+c:\users\atlas\downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\ieactivexvoicerec\ieactivexvoicerecctrl.cpp(203): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  IEActiveXVoicerec.cpp
+  Base64.cpp
+c:\users\atlas\downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\ieactivexvoicerec\base64.cpp(89): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\atlas\downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\ieactivexvoicerec\base64.cpp(100): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+c:\users\atlas\downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\ieactivexvoicerec\base64.cpp(114): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+  AudioHandler.cpp
+  AudioFormatEncoder.cpp
+  Generating Code...
+     Creating library C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\x64\Debug\IEActiveXVoicerec.lib and object C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\x64\Debug\IEActiveXVoicerec.exp
+  IEActiveXVoicerec.vcxproj -> C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\x64\Debug\IEActiveXVoicerec.ocx
+  IEActiveXVoicerec.vcxproj -> C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\x64\Debug\IEActiveXVoicerec.pdb (Partial PDB)

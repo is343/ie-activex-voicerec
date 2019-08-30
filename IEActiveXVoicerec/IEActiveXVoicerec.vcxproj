@@ -23,20 +23,20 @@
     <ProjectGuid>{A856AA88-FBD3-444E-961D-F5A244D635C9}</ProjectGuid>
     <Keyword>MFCActiveXProj</Keyword>
     <RootNamespace>IEActiveXVoicerec</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
@@ -77,26 +77,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <TargetExt>.ocx</TargetExt>
-    <IncludePath>C:\Users\Филипп\Downloads\IEActiveXVoicerec2\IEActiveXVoicerec\IEActiveXVoicerec\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Филипп\Downloads\IEActiveXVoicerec2\IEActiveXVoicerec\IEActiveXVoicerec\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\IEActiveXVoicerec\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\IEActiveXVoicerec\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <TargetExt>.ocx</TargetExt>
-    <IncludePath>C:\Users\Филипп\Downloads\IEActiveXVoicerec2\IEActiveXVoicerec\IEActiveXVoicerec\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Филипп\Downloads\IEActiveXVoicerec2\IEActiveXVoicerec\IEActiveXVoicerec\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\IEActiveXVoicerec\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\IEActiveXVoicerec\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.ocx</TargetExt>
-    <IncludePath>C:\Users\Филипп\Downloads\IEActiveXVoicerec2\IEActiveXVoicerec\IEActiveXVoicerec\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Филипп\Downloads\IEActiveXVoicerec2\IEActiveXVoicerec\IEActiveXVoicerec\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\IEActiveXVoicerec\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\IEActiveXVoicerec\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.ocx</TargetExt>
-    <IncludePath>C:\Users\Филипп\Downloads\IEActiveXVoicerec2\IEActiveXVoicerec\IEActiveXVoicerec\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Филипп\Downloads\IEActiveXVoicerec2\IEActiveXVoicerec\IEActiveXVoicerec\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\IEActiveXVoicerec\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Atlas\Downloads\ie-activex-voicerec-develop\ie-activex-voicerec-develop\IEActiveXVoicerec\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -111,7 +111,8 @@
       <ModuleDefinitionFile>.\IEActiveXVoicerec.def</ModuleDefinitionFile>
       <OutputFile>$(OutDir)$(ProjectName).ocx</OutputFile>
       <RegisterOutput>true</RegisterOutput>
-      <AdditionalDependencies>portaudio_x86.lib;libsndfile-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>portaudio_x86.lib;libsndfile-1_x86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <PerUserRedirection>false</PerUserRedirection>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -138,8 +139,9 @@
       <SubSystem>Windows</SubSystem>
       <ModuleDefinitionFile>.\IEActiveXVoicerec.def</ModuleDefinitionFile>
       <OutputFile>$(OutDir)$(ProjectName).ocx</OutputFile>
-      <RegisterOutput>true</RegisterOutput>
-      <AdditionalDependencies>portaudio_x86.lib;libsndfile-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RegisterOutput>false</RegisterOutput>
+      <AdditionalDependencies>portaudio_x64.lib;libsndfile-1_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <PerUserRedirection>true</PerUserRedirection>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -153,6 +155,9 @@
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -171,7 +176,8 @@
       <ModuleDefinitionFile>.\IEActiveXVoicerec.def</ModuleDefinitionFile>
       <OutputFile>$(OutDir)$(ProjectName).ocx</OutputFile>
       <RegisterOutput>true</RegisterOutput>
-      <AdditionalDependencies>portaudio_x86.lib;libsndfile-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>portaudio_x86.lib;libsndfile-1_x86.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <PerUserRedirection>false</PerUserRedirection>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -202,8 +208,9 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ModuleDefinitionFile>.\IEActiveXVoicerec.def</ModuleDefinitionFile>
       <OutputFile>$(OutDir)$(ProjectName).ocx</OutputFile>
-      <RegisterOutput>true</RegisterOutput>
-      <AdditionalDependencies>portaudio_x86.lib;libsndfile-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RegisterOutput>false</RegisterOutput>
+      <AdditionalDependencies>portaudio_x64.lib;libsndfile-1_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <PerUserRedirection>true</PerUserRedirection>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -217,6 +224,9 @@
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AudioFormatEncoder.cpp" />
@@ -254,6 +264,10 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="IEActiveXVoicerecCtrl.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\libsndfile-1_x64.lib" />
+    <Library Include="lib\portaudio_x64.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
